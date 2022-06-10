@@ -1,3 +1,1 @@
-# silicon
-# silicon
-# silicon
+# Clarion Hotel | A Unit of Silicon Hotels
