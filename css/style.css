@@ -5439,9 +5439,9 @@ blockquote footer a {
 
 .room-suite-htwo .ro-text-two .right-p-two p span {
   display: block;
-  font: 400 0.5em/1.3em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.5em/1.3em "Helvetica Neue Postscript";
   font-style: italic;
-  color: #888;
+  color: #fff;
 }
 
 .roomsuite-slider-two .owl-nav {
@@ -10344,4 +10344,14 @@ video {
   height: 81px;
   width: 80px;
   object-fit: cover;
+}
+
+.nasir-home-search-block.row {
+  min-height: 900px;
+}
+
+@media(min-width: 992px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 100px;
+  }
 }

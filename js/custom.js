@@ -43,13 +43,13 @@ Select drop down
 		 * on SitePoint by Maria Antonietta Perna
 		 */
 
-		if ($('#enquiry').length) {
+		/* if ($('#enquiry').length) {
 			$('#enquiry').load(function(){
 				console.log('sss');
 				$('.tempHeadBdr.formRelative').hide();
 				$('.brandingTextCont').hide();
 			});
-		}
+		} */
 
 
 		//Function to animate slider captions 
