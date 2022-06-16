@@ -2744,7 +2744,7 @@ footer {
 }
 
 .about-info-box ul li:before {
-  background: url(../images/about/check.png) no-repeat left top;
+  /* background: url(../images/about/check.png) no-repeat left top; */
   content: '';
   position: absolute;
   width: 28px;
