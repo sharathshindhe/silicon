@@ -112,7 +112,7 @@ section.row, header.row, footer.row {
 }
 
 body {
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   height: 100%;
   overflow-x: hidden;
   letter-spacing: 0.2px;
@@ -133,7 +133,7 @@ html {
   line-height: 28px;
   color: #a51437;
   text-transform: uppercase;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: 600;
   display: inline-block;
   border-radius: 3px;
@@ -270,7 +270,7 @@ header {
   text-transform: uppercase;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  font: 600 1.0715em/1.5em "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 600 1.0715em/1.5em "HelveticaNeue Postscript";
   text-align: left;
 }
 
@@ -506,7 +506,7 @@ header {
   text-transform: uppercase;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  font: 600 1.0715em/1.5em 'Helvetica Neue Postscript', "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 600 1.0715em/1.5em "HelveticaNeue Postscript";
 }
 
 .main-menu-wrapper-two .nav-holder .nav-footer ul.nav > li > ul.submenu {
@@ -601,7 +601,7 @@ header {
 
 .main-menu-wrapper-two .nav-holder .nav-footer ul.nav > li ul.submenu li:before {
   content: '\f105';
-  font-family: "Helvetica Neue Postscript", 'FontAwesome';
+  font-family: "HelveticaNeue Postscript", 'FontAwesome';
   color: #7c7c7c;
   position: absolute;
   left: 15px;
@@ -990,7 +990,7 @@ header {
 
 .ser-in-box .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
   padding: 0;
-  font: 400 1.039em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.039em/1em "HelveticaNeue Postscript";
   line-height: 40px;
   font-style: italic;
   color: #4a4a4a;
@@ -1016,7 +1016,7 @@ header {
 
 .ui-selectmenu-menu .ui-menu-item {
   font-size: 16px;
-  font-family: "Helvetica Neue Postscript", 'Helvetica Neue Postscript', 'PT Serif', sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-style: italic;
   padding: 5px 20px;
   border-bottom: 1px solid #E1E1E1;
@@ -1103,7 +1103,7 @@ header {
 
 .wel-box .overlay .icon_position_table .icon_container h2 {
   text-align: center;
-  font: 400 1.57em/1.4em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.57em/1.4em "HelveticaNeue Postscript";
   color: #f1be48;
   margin: 0;
   padding: 0 0 0.5em;
@@ -1113,7 +1113,7 @@ header {
 .wel-box .overlay .icon_position_table .icon_container p {
   text-align: center;
   color: #f1be48;
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -1142,14 +1142,14 @@ header {
 
 .wel-content h1 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .wel-content h2 {
   color: #aaaaaa;
-  font: 400 1.15em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 1em;
   padding: 0;
   font-style: italic;
@@ -1171,7 +1171,7 @@ header {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .wel-box .icon-box {
@@ -1181,7 +1181,7 @@ header {
 .wel-box h4 {
   color: #0e1322;
   text-align: center;
-  font: 400 1.57em/1.4em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.57em/1.4em "HelveticaNeue Postscript";
   font-style: italic;
   margin: 0.5em 0 0;
   padding: 0;
@@ -1207,14 +1207,14 @@ header {
 
 .sec-header h2 {
   color: #a51437;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .sec-header h3 {
-  color: #a51437;
-  font: 400 1.15em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  color: #fff;
+  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 2.7em;
   padding: 0;
   font-style: italic;
@@ -1228,7 +1228,7 @@ header {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #fff;
   margin: 0 0 0 12px;
 }
 
@@ -1238,14 +1238,14 @@ header {
 
 .sec-header3 h2 {
   color: #a51437;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .sec-header3 h3 {
   color: #a51437;
-  font: 400 1.15em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 2.1em;
   padding: 0;
   font-style: italic;
@@ -1329,7 +1329,7 @@ header {
 
 .room-suite .item .left-h p {
   color: #242424;
-  font: 1.86em/1em "Helvetica Neue Postscript";
+  font: 1.86em/1em "HelveticaNeue Postscript";
   padding: 0.7em 0 0;
   margin: 0;
 }
@@ -1340,7 +1340,7 @@ header {
 
 .room-suite .item .right-p p {
   color: #242424;
-  font: 1.72em/1.25em "Helvetica Neue Postscript";
+  font: 1.72em/1.25em "HelveticaNeue Postscript";
   padding: 0.3em 0 0.6em;
   margin: 0;
 }
@@ -1351,7 +1351,7 @@ header {
 
 .room-suite .item .right-p p span {
   display: block;
-  font: 400 0.6em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.6em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #888;
 }
@@ -1420,14 +1420,14 @@ header {
 
 .fluid-know-area .service-promo .know-top h2 {
   color: #fff;
-  font: 2.3em/1em "Helvetica Neue Postscript";
+  font: 2.3em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .fluid-know-area .service-promo .know-top h3 {
   color: #5bb3fd;
-  font: 400 1.15em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 1.5em;
   padding: 0;
   font-style: italic;
@@ -1449,7 +1449,7 @@ header {
   color: #b5c9db;
   margin: 0 0 2.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .fluid-know-area .service-promo .know-bot {
@@ -1491,7 +1491,7 @@ header {
   color: #fff;
   margin: 0;
   padding: 0;
-  font: 400 1.33em/1.3em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.33em/1.3em "HelveticaNeue Postscript";
 }
 
 .fluid-know-area .work-image-ser img {
@@ -1570,27 +1570,27 @@ header {
 
 .spa-offer .img_holder .room-ad-cont h2 {
   color: #fff;
-  font: 4em/1em "Helvetica Neue Postscript";
+  font: 4em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.6em;
   padding: 0;
 }
 
 .spa-offer .img_holder .room-ad-cont h2 span {
   color: #fff;
-  font: 0.59em/1em "Helvetica Neue Postscript";
+  font: 0.59em/1em "HelveticaNeue Postscript";
   display: block;
 }
 
 .spa-offer .img_holder .room-ad-cont h3 {
   color: #fff;
-  font: 600 1.66em/1em 'Helvetica Neue Postscript', 'Open Sans Condensed', sans-serif;
+  font: 600 1.66em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.5em;
   padding: 0;
 }
 
 .spa-offer .img_holder .room-ad-cont a {
   color: #000;
-  font: 600 1.0715em/1.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.0715em/1.6em "HelveticaNeue Postscript";
 }
 
 .spa-offer .img_holder .room-ad-cont a:hover {
@@ -1598,7 +1598,7 @@ header {
 }
 
 .spa-offer .img_holder .room-ad-cont p {
-  font: 400 1.0715em/1.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.6em "HelveticaNeue Postscript";
   color: #fff;
   padding: 0;
   margin: 0 0 1.8em;
@@ -1683,7 +1683,7 @@ header {
 
 .our-res .tab-title-box ul li a {
   text-align: center;
-  font: 700 1.1em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 1.1em/1em "HelveticaNeue Postscript";
   display: block;
   color: #242424;
   padding: 1em 0;
@@ -1695,19 +1695,19 @@ header {
   color: #a51437;
   margin: 0 0 2em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .our-res .single-tab-content h2 {
   color: #242424;
-  font: 700 1.3em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 1.3em/1.8em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .our-res .single-tab-content ul li {
   color: #6c6c6c;
-  font: 400 1.0715em/2em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/2em "HelveticaNeue Postscript";
 }
 
 .our-res .single-tab-content ul li .fa {
@@ -1769,14 +1769,14 @@ header {
 }
 
 .promo-wrapper .promo-imgslider .promo-content h2 {
-  font: 2.86em/1em "Helvetica Neue Postscript";
+  font: 2.86em/1em "HelveticaNeue Postscript";
   color: #fff;
   margin: 0 0 0.5em;
   padding: 0;
 }
 
 .promo-wrapper .promo-imgslider .promo-content p {
-  font: 400 1.22em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.22em/1.5em "HelveticaNeue Postscript";
   margin: 0 0 1.8em;
   padding: 0;
   color: #fff;
@@ -1788,7 +1788,7 @@ header {
   padding: 0.2em 2em 0.3em;
   border: 1px solid #fff;
   color: #fff;
-  font: 400 1.22em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.22em/1.8em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -1838,7 +1838,7 @@ header {
 
 .testimonials-wrapper .item .test-cont p {
   color: #455560;
-  font: 400 1.0175em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0175em/1.8em "HelveticaNeue Postscript";
 }
 
 .testimonials-wrapper .item .test-bot {
@@ -1859,12 +1859,12 @@ header {
   color: #1f4d84;
   padding: 0 0 0.5em;
   margin: 0;
-  font: 1.43em/1em "Helvetica Neue Postscript";
+  font: 1.43em/1em "HelveticaNeue Postscript";
 }
 
 .testimonials-wrapper .item .test-bot .client_name h5 span {
   color: #3d3d3d;
-  font: 400 0.7em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.7em/1em "HelveticaNeue Postscript";
 }
 
 .testimonials-wrapper .item .test-bot .client_name h5 a {
@@ -1892,7 +1892,7 @@ header {
 }
 
 .testimonial-p .media-body h3 {
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #242424;
   margin: 0 0 0.5em;
@@ -1900,14 +1900,14 @@ header {
 }
 
 .testimonial-p .media-body p {
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #a51437;
   margin-bottom: 1em;
 }
 
 .testimonial-p .media-body a {
-  font: 600 1.0715em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.0715em/1em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #1f4d84;
   font-style: italic;
@@ -1917,7 +1917,7 @@ header {
 
 .testimonial-p .media-body a span {
   color: #3d3d3d;
-  font: 400 0.9em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.9em/1em "HelveticaNeue Postscript";
 }
 
 .testimonial-p .media-body h6 {
@@ -2006,7 +2006,7 @@ header {
 }
 
 .news-evn-img .event-date h3 {
-  font: 600 1.8em/1.2em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.8em/1.2em "HelveticaNeue Postscript";
   color: #fff;
   margin: 0;
   padding: 0.4em 0 0;
@@ -2014,7 +2014,7 @@ header {
 
 .news-evn-img .event-date h3 small {
   color: #fff;
-  font: 400 0.59em/1em "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 400 0.59em/1em "HelveticaNeue Postscript";
   display: block;
 }
 
@@ -2023,7 +2023,7 @@ header {
 }
 
 .news-evn-cont h3 {
-  font: 600 1.15em/1.5em "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 600 1.15em/1.5em "HelveticaNeue Postscript";
   letter-spacing: 0.5px;
   color: #000;
   -webkit-transition: all 300ms linear 0s;
@@ -2033,7 +2033,7 @@ header {
 }
 
 .news-evn-cont p {
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   color: #8e8d8d;
   margin: 0;
   padding: 0;
@@ -2044,7 +2044,7 @@ header {
 }
 
 .news-meta a {
-  font: 400 1.15em/1em "Helvetica Neue Postscript";
+  font: 400 1.15em/1em "HelveticaNeue Postscript";
   color: #a6a6a6;
   padding-right: 13px;
   font-style: italic;
@@ -2090,14 +2090,14 @@ header {
 
 .wel-ad-inner .wel-text h2 {
   color: #fff;
-  font: 600 1.43em/1.5em "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 600 1.43em/1.5em "HelveticaNeue Postscript";
   padding: 1.3em 0 0;
   margin: 0;
 }
 
 .wel-ad-inner .wel-text h3 {
   color: #fff;
-  font: 400 1.15em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.15em/1.5em "HelveticaNeue Postscript";
   padding: 0 0 1.4em;
   margin: 0;
 }
@@ -2124,7 +2124,7 @@ header {
 
 .subscribe-wrp .form-control {
   border-radius: 5px;
-  font: 400 1.15em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.15em/1em "HelveticaNeue Postscript";
   color: #656565;
   border: 1px solid #7da100;
   height: 44px;
@@ -2169,13 +2169,13 @@ footer {
 .footer-top {
   position: relative;
   overflow: hidden;
-  font: 400 0.94m/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.94m/1.5em "HelveticaNeue Postscript";
 }
 
 .widget.about-us-widget p {
   color: #fff;
   margin-top: 2em;
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   padding: 0;
   margin-bottom: 1.5em;
 }
@@ -2216,7 +2216,7 @@ footer {
 }
 
 .widget-contact h4, .get-in-touch h4, .widget-links h4 {
-  font: 600 18px/17px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 18px/17px "HelveticaNeue Postscript";
   color: #fdbe57;
   margin-top: 0px;
   text-transform: uppercase;
@@ -2242,7 +2242,7 @@ footer {
 .widget-contact-list ul li a {
   color: #fff;
   text-transform: capitalize;
-  font: 400 1.0715em/2.3em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/2.3em "HelveticaNeue Postscript";
 }
 
 .widget-contact-list ul li a:hover {
@@ -2275,7 +2275,7 @@ footer {
   color: #fff;
   width: -webkit-calc(100% - 34px);
   width: calc(100% - 34px);
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   padding: 0.5em 0;
 }
 
@@ -2305,7 +2305,7 @@ footer {
 }
 
 .footer-copy p {
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   color: #fdbe57;
   padding: 0;
   margin: 0;
@@ -2384,7 +2384,7 @@ footer {
 }
 
 .content .search_wrap .search_submit:before {
-  font-family: "Helvetica Neue Postscript", 'MontserratSemibold', sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: 600;
   font-size: 1em;
   text-transform: uppercase;
@@ -2572,7 +2572,7 @@ footer {
   font-size: 1em;
   text-transform: none;
   letter-spacing: 0;
-  font-family: "Helvetica Neue Postscript", "MontserratLight";
+  font-family: "HelveticaNeue Postscript";
   line-height: 1.5em;
   font-weight: 300;
 }
@@ -2582,7 +2582,7 @@ footer {
 }
 
 .post_item .post_info .post_info_posted {
-  font-family: "Helvetica Neue Postscript", MontserratSemibold;
+  font-family: "HelveticaNeue Postscript";
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -2604,7 +2604,7 @@ footer {
 }
 
 .header-breadcrumb h1 {
-  font: 3.72em/1em "Helvetica Neue Postscript";
+  font: 3.72em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.23em;
   padding: 0;
   color: #fff;
@@ -2626,13 +2626,13 @@ footer {
 }
 
 .breadcrumb li a {
-  font: 600 1em/2.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1em/2.6em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #5bb3fd;
 }
 
 .breadcrumb > .active {
-  font: 600 1em/2.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1em/2.5em "HelveticaNeue Postscript";
   color: #fff;
 }
 
@@ -2719,12 +2719,12 @@ footer {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .about-info-box h6 {
   color: #a51437;
-  font: 400 1.3em/1.5em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.3em/1.5em "HelveticaNeue Postscript";
   margin: 0;
   padding: 1.5em 0;
   border-top: 1px solid #d6d6d6;
@@ -2734,7 +2734,7 @@ footer {
 
 .about-info-box ul li {
   display: inline-block;
-  font: 400 1.43em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.43em/1em "HelveticaNeue Postscript";
   color: #000;
   font-style: italic;
 }
@@ -2840,7 +2840,7 @@ footer {
 }
 
 .accordian-area .panel-title {
-  font: 400 1.3em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.3em/1em "HelveticaNeue Postscript";
 }
 
 /* ==============================
@@ -2901,14 +2901,14 @@ footer {
 }
 
 .check-video-box .img-holder .content .content-inner .box h3 {
-  font: 3.65em/1em "Helvetica Neue Postscript";
+  font: 3.65em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.8em;
   padding: 0;
   color: #a51437;
 }
 
 .check-video-box .img-holder .content .content-inner .box h4 {
-  font: 400 2.35em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 2.35em/1.8em "HelveticaNeue Postscript";
   margin: 1.2em 0 0;
   padding: 0;
   color: #a51437;
@@ -2956,7 +2956,7 @@ footer {
 
 .room-wrapper .media-body h2 {
   color: #0e1322;
-  font: 2.15em/1em "Helvetica Neue Postscript";
+  font: 2.15em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.3em;
   padding: 0;
   position: relative;
@@ -2977,14 +2977,14 @@ footer {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .room-wrapper .media-body h3 {
   color: #000;
   margin: 0 0 0.5em;
   padding: 0;
-  font: 600 1.23em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.23em/1em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -2992,7 +2992,7 @@ footer {
   color: #3894c3;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -3006,14 +3006,14 @@ footer {
 
 .room-wrapper .media-right p {
   color: #242424;
-  font: 2.86em/1.25em "Helvetica Neue Postscript";
+  font: 2.86em/1.25em "HelveticaNeue Postscript";
   padding: 0;
   margin: 0 0 0.5em;
 }
 
 .room-wrapper .media-right p span {
   display: block;
-  font: 400 0.4em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.4em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #888;
   margin: 0 0 2em;
@@ -3027,7 +3027,7 @@ footer {
   color: #fff;
   border-radius: 3px;
   text-transform: uppercase;
-  font: 400 0.88em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.88em/1em "HelveticaNeue Postscript";
 }
 
 .room-wrapper .media-right a:hover {
@@ -3068,7 +3068,7 @@ footer {
 
 .room-t-wrapper .content h2 {
   color: #0e1322;
-  font: 2.15em/1em "Helvetica Neue Postscript";
+  font: 2.15em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.3em;
   padding: 0;
   position: relative;
@@ -3089,7 +3089,7 @@ footer {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .room-t-wrapper .content .bottom-content {
@@ -3098,14 +3098,14 @@ footer {
 
 .room-t-wrapper .content .bottom-content p {
   color: #242424;
-  font: 2.7em/1.25em "Helvetica Neue Postscript";
+  font: 2.7em/1.25em "HelveticaNeue Postscript";
   padding: 0;
   margin: 0 0 0.5em;
 }
 
 .room-t-wrapper .content .bottom-content p span {
   display: block;
-  font: 400 0.4em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.4em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #888;
   margin: 0 0 2em;
@@ -3119,7 +3119,7 @@ footer {
   color: #a51437;
   border-radius: 3px;
   text-transform: uppercase;
-  font: 400 0.88em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.88em/1em "HelveticaNeue Postscript";
 }
 
 .room-t-wrapper .content .bottom-content a:hover {
@@ -3194,7 +3194,7 @@ footer {
 
 .single-sidebar-widget .sec-title h2 {
   color: #0e1322;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.3em;
   padding: 0;
   position: relative;
@@ -3226,7 +3226,7 @@ footer {
   height: 45px;
   border-radius: 0;
   border: none;
-  font: 400 1em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1em/1em "HelveticaNeue Postscript";
   padding: 0 30px;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -3267,7 +3267,7 @@ footer {
 
 .single-sidebar-widget .categories ul li a:after {
   content: '\f105';
-  font-family: "Helvetica Neue Postscript", 'FontAwesome';
+  font-family: "HelveticaNeue Postscript", 'FontAwesome';
   color: #C8C8C8;
   position: absolute;
   top: 0;
@@ -3292,7 +3292,7 @@ footer {
 }
 
 .single-sidebar-widget .popular-post .content a h4 {
-  font: 600 1em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1em/1em "HelveticaNeue Postscript";
   color: #242424;
   text-transform: uppercase;
   -webkit-transition: all .3s ease;
@@ -3310,21 +3310,21 @@ footer {
 
 .single-sidebar-widget .popular-post .content span {
   color: #999999;
-  font: 400 0.93em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.93em/1em "HelveticaNeue Postscript";
   display: block;
   margin-top: 1.2em;
 }
 
 .single-sidebar-widget .popular-post .content h6 {
   color: #242424;
-  font: 1.6em/1em "Helvetica Neue Postscript";
+  font: 1.6em/1em "HelveticaNeue Postscript";
   margin: 0.6em 0 0;
   padding: 0;
 }
 
 .single-sidebar-widget .popular-post .content h6 span {
   display: inline-block;
-  font: 600 0.63em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 0.63em/1em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -3365,7 +3365,7 @@ footer {
 .single-blog-post .meta-info .content-box .post-links li {
   display: table-cell;
   vertical-align: middle;
-  font: 400 1.15em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.15em/1em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -3394,14 +3394,14 @@ footer {
 
 .single-blog-post .date-box .date-inner .date-c-inner p {
   color: #fff;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .single-blog-post .date-box .date-inner .date-c-inner p span {
   color: #fff;
-  font: 0.7em/1em "Helvetica Neue Postscript";
+  font: 0.7em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
   display: block;
@@ -3480,19 +3480,19 @@ footer {
   text-transform: none;
   margin: 0.6em 0 0;
   padding: 0 0 0.8em;
-  font: 600 1.33em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.33em/1em "HelveticaNeue Postscript";
 }
 
 .single-blog-post p {
   color: #a51437;
   margin: 0 0 2em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .single-blog-post h6 {
   color: #1cbac8;
-  font: 400 1.0715em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   margin: 2em 0 0;
   padding: 0;
 }
@@ -3514,7 +3514,7 @@ footer {
 .post-list li {
   float: left;
   width: 270px;
-  font: 400 14px/30px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 14px/30px "HelveticaNeue Postscript";
   color: #862633;
   letter-spacing: 0.3px;
 }
@@ -3553,7 +3553,7 @@ blockquote:before {
 
 blockquote p {
   float: left;
-  font: 400 1.2em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.2em/1em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #a51437;
   width: -webkit-calc(100% - 70px);
@@ -3565,14 +3565,14 @@ blockquote p {
 blockquote footer {
   text-align: right;
   color: #e8a20c;
-  font: 400 1.2em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.2em/1em "HelveticaNeue Postscript";
   font-style: italic;
   background: transparent;
 }
 
 blockquote footer a {
   color: #e8a20c;
-  font: 400 0.8em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.8em/1em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -3581,7 +3581,7 @@ blockquote footer a {
 ============================== */
 .news-comments .comments_count, .leave-comments .leave-comment-title {
   margin: 30px 0px 30px 0;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   color: #242424;
   font-weight: bold;
 }
@@ -3643,13 +3643,13 @@ blockquote footer a {
   }
 }
 .comments .comment .media-body h5 {
-  font: 500 1em/2em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 500 1em/2em "HelveticaNeue Postscript";
   margin: 0;
   color: #242424;
 }
 
 .comments .comment .media-body p {
-  font: 400 14px/30px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 14px/30px "HelveticaNeue Postscript";
   color: #a51437;
 }
 
@@ -3670,7 +3670,7 @@ blockquote footer a {
 }
 .comments .comment .media-body .date-reply li a {
   padding: 0;
-  font: 13px/1 "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 13px/1 "HelveticaNeue Postscript";
   text-transform: capitalize;
   color: #47bcca;
 }
@@ -3735,14 +3735,14 @@ blockquote footer a {
 }
 .comment_form .leave-comment-title {
   margin: 0px 0px 26px 0px;
-  font: bold 20px/28px "Helvetica Neue Postscript", "Alegreya", serif;
+  font: bold 20px/28px "HelveticaNeue Postscript";
   color: #353535;
 }
 
 .comment_form .form-control {
   border-radius: 0;
   padding: 9px 20px;
-  font: 14px/25px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 14px/25px "HelveticaNeue Postscript";
   color: #000;
   margin-bottom: 20px;
   background: #fff;
@@ -3820,7 +3820,7 @@ blockquote footer a {
   border: 1px solid #f6ba18;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font: 600 1.2em/2.1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.2em/2.1em "HelveticaNeue Postscript";
   padding: 7px 22px 7px 22px;
   color: #19242a;
   margin-top: 10px;
@@ -3872,7 +3872,7 @@ blockquote footer a {
 
 .gallery-filter li span {
   display: inline-block;
-  font: 700 0.94em/3em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 0.94em/3em "HelveticaNeue Postscript";
   color: #666666;
   text-transform: uppercase;
   cursor: pointer;
@@ -4015,7 +4015,7 @@ blockquote footer a {
 
 .single-gallery .img-holder .content .link-gallery a {
   color: #fff;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   display: table-cell;
   vertical-align: middle;
 }
@@ -4103,7 +4103,7 @@ blockquote footer a {
 
 .book-right h2 {
   color: #a51437;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 1.5em 0 0.5em;
   padding: 0;
   position: relative;
@@ -4124,7 +4124,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .book-left-content {
@@ -4207,7 +4207,7 @@ blockquote footer a {
 }
 
 .input_form form .form-control.error + .error {
-  font: 400 0.8em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.8em/1em "HelveticaNeue Postscript";
   margin-bottom: 20px;
   margin-top: 5px;
   color: red;
@@ -4222,7 +4222,7 @@ blockquote footer a {
   background-color: #fff;
   border-radius: 0;
   height: 40px;
-  font: 400 1.0715em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #4b4b4b;
   border: 1px solid #e9e9e9;
@@ -4251,7 +4251,7 @@ blockquote footer a {
   background-color: #fff;
   border-radius: 0;
   height: 40px;
-  font: 400 1.0715em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #4b4b4b;
   border: 1px solid #e9e9e9;
@@ -4263,7 +4263,7 @@ blockquote footer a {
 .book-left-content span {
   color: #404040;
   display: block;
-  font: 600 1em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1em/1.5em "HelveticaNeue Postscript";
   margin: 0 0 0.7em;
 }
 
@@ -4274,7 +4274,7 @@ blockquote footer a {
 
 .contact-info h2 {
   color: #0e1322;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0 0 1.5em;
   padding: 0;
   position: relative;
@@ -4316,7 +4316,7 @@ blockquote footer a {
 
 .contact-info .media-contact-info p a i {
   color: #545353;
-  font: 1.4em/1em "Helvetica Neue Postscript";
+  font: 1.4em/1em "HelveticaNeue Postscript";
 }
 
 .contact-info .media-contact-info {
@@ -4327,7 +4327,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .contact-info .media-contact-info p a {
@@ -4370,20 +4370,20 @@ blockquote footer a {
 .book-r-form .room-price h6 {
   margin: 0 0 0.8em;
   padding: 0;
-  font: 700 0.88em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 0.88em/1em "HelveticaNeue Postscript";
   text-transform: uppercase;
   color: #848484;
 }
 
 .book-r-form .room-price p {
-  font: 2.66em/1em "Helvetica Neue Postscript";
+  font: 2.66em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
   color: #000;
 }
 
 .book-r-form .room-price p span {
-  font: 600 0.4em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 0.4em/1em "HelveticaNeue Postscript";
   color: #848484;
   text-transform: uppercase;
 }
@@ -4399,7 +4399,7 @@ blockquote footer a {
   display: block;
   color: #000;
   text-transform: uppercase;
-  font: 600 0.95em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 0.95em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.8em;
 }
 
@@ -4408,7 +4408,7 @@ blockquote footer a {
   background: #fff;
   border: 1px solid #e3e3e3;
   border-radius: 0;
-  font: 400 1.0715em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #4b4b4b;
   margin-bottom: 20px;
@@ -4418,7 +4418,7 @@ blockquote footer a {
   background-color: #fff;
   border-radius: 0;
   height: 40px;
-  font: 400 1.0715em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   font-style: italic;
   color: #4b4b4b;
   border: 1px solid #e3e3e3;
@@ -4447,7 +4447,7 @@ blockquote footer a {
 
 .book-r-form .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
   padding: 0;
-  font: 400 1.039em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.039em/1em "HelveticaNeue Postscript";
   line-height: 40px;
   font-style: italic;
   color: #4a4a4a;
@@ -4534,7 +4534,7 @@ blockquote footer a {
 
 .single-room-wrapper .room-dec-wrapper h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 1em;
   padding: 0;
   position: relative;
@@ -4555,7 +4555,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 2em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .single-room-wrapper .room-fac-wrapper {
@@ -4564,7 +4564,7 @@ blockquote footer a {
 
 .single-room-wrapper .room-fac-wrapper h2, .single-room-wrapper .room-overview h2, .single-room-wrapper .question-wrapper h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 1em;
   padding: 0;
   position: relative;
@@ -4611,7 +4611,7 @@ blockquote footer a {
 }
 
 .single-room-wrapper .ro-facilitie ul li .facilitie-i-box h3 {
-  font: 800 1em/1em "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: 800 1em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.8em;
   padding: 0;
   text-align: center;
@@ -4629,7 +4629,7 @@ blockquote footer a {
   color: #000;
   text-transform: uppercase;
   background: transparent;
-  font: 700 1em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 1em/1em "HelveticaNeue Postscript";
 }
 
 .single-room-wrapper .room-overview .table > tbody > tr > th {
@@ -4641,12 +4641,12 @@ blockquote footer a {
 .single-room-wrapper .room-overview .table > tbody > tr > td {
   border-top: 1px solid transparent;
   color: #a51437;
-  font: 400 1.0715em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1em "HelveticaNeue Postscript";
   padding: 13px 30px;
 }
 
 .single-room-wrapper .room-overview h5 {
-  font: 400 1.3em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.3em/1.5em "HelveticaNeue Postscript";
   font-style: italic;
   padding: 0;
   margin-bottom: 3em;
@@ -4665,7 +4665,7 @@ blockquote footer a {
 .single-room-wrapper .question-wrapper .form-control {
   margin-bottom: 20px;
   border-radius: 0;
-  font: 1em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 1em/1.5em "HelveticaNeue Postscript";
   color: #959595;
   padding: 11px 20px;
   border: 1px solid #e1e1e1;
@@ -4675,7 +4675,7 @@ blockquote footer a {
 }
 
 .room-overview a {
-  font: 600 1.3em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.3em/1.5em "HelveticaNeue Postscript";
   padding: 0.8em 2em;
 }
 
@@ -4707,7 +4707,7 @@ blockquote footer a {
 .wel-band .top-left .t-txt {
   float: left;
   text-transform: uppercase;
-  font: 600 0.93em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 0.93em/1em "HelveticaNeue Postscript";
   color: #7f7f7f;
   margin-top: 0.5em;
 }
@@ -4723,7 +4723,7 @@ blockquote footer a {
 .wel-band .top-right {
   display: inline-block;
   text-transform: uppercase;
-  font: 600 0.87em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 0.87em/1.5em "HelveticaNeue Postscript";
   color: #7f8997;
   margin-top: 0.28em;
 }
@@ -4837,7 +4837,7 @@ blockquote footer a {
 
 .home-two .main-menu .navbar-collapse > ul > li > ul > li a:before {
   content: '\f105';
-  font-family: "Helvetica Neue Postscript", 'FontAwesome';
+  font-family: "HelveticaNeue Postscript", 'FontAwesome';
   color: #828282;
   position: absolute;
   left: 25px;
@@ -4858,13 +4858,13 @@ blockquote footer a {
 
 .home-slider2 .carousel-caption h2 {
   color: #fff;
-  font: 3.93em/1em "Helvetica Neue Postscript";
+  font: 3.93em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.55em;
   padding: 0;
 }
 
 .home-slider2 .carousel-caption p {
-  font: 400 1.22em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.22em/1.5em "HelveticaNeue Postscript";
   margin: 0 0 1.7em;
   padding: 0;
   font-style: italic;
@@ -4872,7 +4872,7 @@ blockquote footer a {
 
 .home-slider2 .carousel-caption a {
   display: inline-block;
-  font: 600 1em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1em/1em "HelveticaNeue Postscript";
   border: 1px solid #fff;
   border-radius: 5px;
   color: #fff;
@@ -4918,7 +4918,7 @@ blockquote footer a {
 
 .rest-fact-counter .text-box h4 {
   color: #fff;
-  font: 600 3.95em/1em "Helvetica Neue Postscript";
+  font: 600 3.95em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
   position: relative;
@@ -4941,7 +4941,7 @@ blockquote footer a {
 
 .rest-fact-counter .text-box2 p {
   color: #f1be48;
-  font: 400 1.0715em/1.4em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.4em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -4966,7 +4966,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .activities-cont a {
@@ -5008,7 +5008,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .offer-right .offer-img-box1 {
@@ -5046,7 +5046,7 @@ blockquote footer a {
 .offer-right .offer-img-box2 .box1 .img_holder .overlay .text1 {
   position: relative;
   color: #fff;
-  font: 400 0.7em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.7em/1.8em "HelveticaNeue Postscript";
   text-align: right;
 }
 
@@ -5056,20 +5056,20 @@ blockquote footer a {
 
 .offer-right .offer-img-box2 .box1 .img_holder .overlay .offertext1 p {
   color: #dc6c04;
-  font: 3.5em/1em "Helvetica Neue Postscript";
+  font: 3.5em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0.2em 0.6em;
 }
 
 .offer-right .offer-img-box2 .box1 .img_holder .overlay .offertext1 .off-txt {
   color: #dc6c04;
-  font: 0.58em/1em "Helvetica Neue Postscript";
+  font: 0.58em/1em "HelveticaNeue Postscript";
   display: inline-block;
 }
 
 .offer-right .offer-img-box2 .box1 .img_holder .overlay .offertext1 .winter-txt {
   color: #000;
-  font: 700 0.5em/1em 'Helvetica Neue Postscript', 'Open Sans Condensed', sans-serif;
+  font: 700 0.5em/1em "HelveticaNeue Postscript";
   display: inline-block;
   padding-left: 0.4em;
 }
@@ -5093,7 +5093,7 @@ blockquote footer a {
 
 .offer-right .offer-img-box2 .box2 .img_holder .overlay p {
   color: #000;
-  font: 600 1.7em/1em 'Helvetica Neue Postscript', 'Open Sans Condensed', sans-serif;
+  font: 600 1.7em/1em "HelveticaNeue Postscript";
   padding: 0;
   margin: 0;
 }
@@ -5102,18 +5102,18 @@ blockquote footer a {
   color: #729400;
   padding: 0;
   margin: 0;
-  font: 2.67em/1em "Helvetica Neue Postscript";
+  font: 2.67em/1em "HelveticaNeue Postscript";
 }
 
 .offer-right .offer-img-box2 .box2 .img_holder .overlay h2 span {
   color: #729400;
-  font: 0.76em/1em "Helvetica Neue Postscript";
+  font: 0.76em/1em "HelveticaNeue Postscript";
 }
 
 .offer-right .offer-img-box2 .box2 .img_holder .overlay h6 {
   border-top: 1px solid #a5a4a4;
   color: #929292;
-  font: 400 0.7em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.7em/1.8em "HelveticaNeue Postscript";
   padding: 0;
   margin: 0;
   text-align: center;
@@ -5129,7 +5129,7 @@ blockquote footer a {
 
 .sec-w-header h2 {
   color: #fff;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -5181,7 +5181,7 @@ blockquote footer a {
 
 .sec-header-two h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 1.3em;
   padding: 0;
 }
@@ -5222,13 +5222,13 @@ blockquote footer a {
   color: #1c1c1c;
   margin: 0 0 0.3em;
   padding: 0;
-  font: 700 1.0715em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 700 1.0715em/1em "HelveticaNeue Postscript";
   text-transform: uppercase;
 }
 
 .our-event-t-wrapper .media-body p {
   color: #455560;
-  font: 400 1.0715em/1.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.6em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -5256,14 +5256,14 @@ blockquote footer a {
 
 .our-event-t-wrapper .date-box .date-inner .date-c-inner p {
   color: #fff;
-  font: 2.15em/1em "Helvetica Neue Postscript";
+  font: 2.15em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
 
 .our-event-t-wrapper .date-box .date-inner .date-c-inner p span {
   color: #fff;
-  font: 0.7em/1em "Helvetica Neue Postscript";
+  font: 0.7em/1em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
   display: block;
@@ -5302,7 +5302,7 @@ blockquote footer a {
 
 .get-touch-wrapper .touch-txt h3 {
   color: #323232;
-  font: 1.72em/1em "Helvetica Neue Postscript";
+  font: 1.72em/1em "HelveticaNeue Postscript";
   margin: 0 0 1em;
   padding: 0;
 }
@@ -5310,14 +5310,14 @@ blockquote footer a {
 .get-touch-wrapper .touch-txt h3 span {
   color: #7e7e7e;
   display: block;
-  font: 400 0.62em/1.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.62em/1.6em "HelveticaNeue Postscript";
 }
 
 .get-touch-wrapper .touch-txt p {
   color: #7e7e7e;
   margin: 0 0 1em;
   padding: 0;
-  font: 400 1.0715em/1.6em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.6em "HelveticaNeue Postscript";
 }
 
 .get-touch-wrapper .touch-txt p a {
@@ -5330,7 +5330,7 @@ blockquote footer a {
 
 .sec-header-touch h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.7em;
   padding: 0;
 }
@@ -5378,7 +5378,7 @@ blockquote footer a {
 
 .room-suite-htwo .item .ro-txt h2 {
   color: #242424;
-  font: 1.86em/1em "Helvetica Neue Postscript";
+  font: 1.86em/1em "HelveticaNeue Postscript";
   padding: 0;
   margin: 1em 0 0.7em;
   position: relative;
@@ -5398,7 +5398,7 @@ blockquote footer a {
 .room-suite-htwo .item .ro-txt p {
   color: #fff;
   margin: 0 0 1.8em;
-  font: 400 1.0715em/1.5em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
 }
 
 .room-suite-htwo .item .ro-img {
@@ -5432,14 +5432,14 @@ blockquote footer a {
 
 .room-suite-htwo .ro-text-two .right-p-two p {
   color: #242424;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   padding: 0 0 0;
   margin: 0;
 }
 
 .room-suite-htwo .ro-text-two .right-p-two p span {
   display: block;
-  font: 400 0.5em/1.3em "Helvetica Neue Postscript";
+  font: 400 0.5em/1.3em "HelveticaNeue Postscript";
   font-style: italic;
   color: #fff;
 }
@@ -5489,7 +5489,7 @@ blockquote footer a {
 
 .sec-header-small h2 {
   color: #0e1322;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.8em;
   padding: 0;
 }
@@ -5519,7 +5519,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .aminities-outer ul {
@@ -5611,7 +5611,7 @@ blockquote footer a {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   color: #0e1322;
-  font: 400 1.55em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.55em/1em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -5624,7 +5624,7 @@ blockquote footer a {
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  font: 400 1.0715em/1.7em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.7em "HelveticaNeue Postscript";
   padding: 0 1.5em 1.7em;
   color: #a51437;
   margin: 0;
@@ -5702,7 +5702,7 @@ blockquote footer a {
 
 .activities-content h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 1.4em 0 0.6em;
   padding: 0;
   position: relative;
@@ -5723,7 +5723,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .activities-content .res-btn {
@@ -5739,7 +5739,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 /* ==============================
@@ -5754,7 +5754,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .offer-deal-dark {
@@ -5765,7 +5765,7 @@ blockquote footer a {
 
 .offer-content h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.6em;
   padding: 0;
   position: relative;
@@ -5786,7 +5786,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .offer-content {
@@ -5820,14 +5820,14 @@ blockquote footer a {
 
 .offer-b-price p {
   color: #242424;
-  font: 2em/0.9em "Helvetica Neue Postscript";
+  font: 2em/0.9em "HelveticaNeue Postscript";
   padding: 0 0 0;
   margin: 0;
 }
 
 .offer-b-price p span {
   display: block;
-  font: 400 0.53em/1.3em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.53em/1.3em "HelveticaNeue Postscript";
   font-style: italic;
   color: #888;
 }
@@ -5856,13 +5856,13 @@ blockquote footer a {
   color: #fff;
   padding: 0.4em;
   margin: 0;
-  font: 3.15em/1em "Helvetica Neue Postscript";
+  font: 3.15em/1em "HelveticaNeue Postscript";
   text-align: center;
 }
 
 .offer-deal .img-holder .overlay p span {
   color: #fff;
-  font: 0.64em/1em "Helvetica Neue Postscript";
+  font: 0.64em/1em "HelveticaNeue Postscript";
   display: block;
 }
 
@@ -5894,7 +5894,7 @@ blockquote footer a {
 
 .family-content h2 {
   color: #0e1322;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0 0 1.3em;
   padding: 0;
   position: relative;
@@ -5915,7 +5915,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .family-img {
@@ -6074,7 +6074,7 @@ blockquote footer a {
 ============================== */
 .hidden-bar .logo-side h2 {
   color: #fff;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0.8em 0 0.4em;
   padding: 0;
 }
@@ -6083,12 +6083,12 @@ blockquote footer a {
   color: #fff;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .hidden-bar .side-gallery h3 {
   color: #fff;
-  font: 600 1.26em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.26em/1em "HelveticaNeue Postscript";
   position: relative;
   margin: 0 0 1.7em;
   padding: 0;
@@ -6116,7 +6116,7 @@ blockquote footer a {
 
 .hidden-bar .side-email a {
   color: #fff;
-  font: 400 1.1em/1.7em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.1em/1.7em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -6148,7 +6148,7 @@ blockquote footer a {
 
 .hidden-bar-two .logo-side h2 {
   color: #2a2a2a;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0.8em 0 0.4em;
   padding: 0;
 }
@@ -6157,7 +6157,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .hidden-bar-two .logo {
@@ -6213,7 +6213,7 @@ blockquote footer a {
 
 .hidden-bar-two .side-gallery h3 {
   color: #a51437;
-  font: 600 1.26em/1em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.26em/1em "HelveticaNeue Postscript";
   position: relative;
   margin: 0 0 1.7em;
   padding: 0;
@@ -6252,7 +6252,7 @@ blockquote footer a {
 
 .hidden-bar-two .side-email a {
   color: #a51437;
-  font: 400 1.1em/1.7em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.1em/1.7em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -6276,7 +6276,7 @@ blockquote footer a {
 
 .m-traking .maount-content h2 {
   color: #0e1322;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 1.3em;
   padding: 0;
   position: relative;
@@ -6295,7 +6295,7 @@ blockquote footer a {
 
 .m-traking .maount-content h3 {
   color: #0e1322;
-  font: 2em/1em "Helvetica Neue Postscript";
+  font: 2em/1em "HelveticaNeue Postscript";
   margin: 0 0 1.3em;
   padding: 0;
   position: relative;
@@ -6316,14 +6316,14 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 3em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .m-traking .maount-content h5 {
   color: #a51437;
   margin: 0 0 0.3em;
   padding: 1em 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
   font-style: italic;
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
@@ -6394,7 +6394,7 @@ blockquote footer a {
 
 .rest-content h2 {
   color: #fdbe57;
-  font: 1.9em/1em "Helvetica Neue Postscript";
+  font: 1.9em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.7em;
   padding: 0;
   position: relative;
@@ -6405,7 +6405,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .rest-content ul {
@@ -6417,7 +6417,7 @@ blockquote footer a {
   padding: 0 0 0 1em;
   margin: 0;
   color: #a51437;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
   font-style: italic;
 }
 
@@ -6442,7 +6442,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0 0 1.5em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .our-spec-outer {
@@ -6453,7 +6453,7 @@ blockquote footer a {
 
 .our-spec-outer .item h2 {
   color: #242424;
-  font: 1.86em/1em "Helvetica Neue Postscript";
+  font: 1.86em/1em "HelveticaNeue Postscript";
   margin: 1em 0 0.4em;
   padding: 0;
   position: relative;
@@ -6483,7 +6483,7 @@ blockquote footer a {
   color: #000;
   margin: 0;
   padding: 1em 0;
-  font: 600 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 600 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .tab-inner-cont .media {
@@ -6509,7 +6509,7 @@ blockquote footer a {
 
 .tab-inner-cont .media .media-left h2 {
   color: #242424;
-  font: 800 1.43em/1.4em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 800 1.43em/1.4em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
 }
@@ -6518,7 +6518,7 @@ blockquote footer a {
   color: #a51437;
   margin: 0;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .tab-inner-cont .media .media-right {
@@ -6528,7 +6528,7 @@ blockquote footer a {
 
 .tab-inner-cont .media .media-right p {
   color: #a51437;
-  font: 2.72em/1em "Helvetica Neue Postscript";
+  font: 2.72em/1em "HelveticaNeue Postscript";
   margin: 0.2em 0;
   padding: 0;
 }
@@ -6546,7 +6546,7 @@ blockquote footer a {
 
 .our-table-cont h2 {
   color: #fff;
-  font: 2.43em/1em "Helvetica Neue Postscript";
+  font: 2.43em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.6em;
   padding: 0;
   position: relative;
@@ -6567,7 +6567,7 @@ blockquote footer a {
   color: #fff;
   margin: 0 0 2em;
   padding: 0;
-  font: 400 1.0715em/1.8em "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .table-form {
@@ -6578,7 +6578,7 @@ blockquote footer a {
 .table-form form .form-control {
   margin-bottom: 20px;
   border-radius: 0;
-  font: 400 1.0715em/1.5em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   color: #fff;
   padding: 11px 20px;
   border: 1px solid #e1e1e1;
@@ -6596,7 +6596,7 @@ blockquote footer a {
 .our-menu-tab .nav-tabs > li > a {
   text-transform: uppercase;
   color: #242424;
-  font: 600 1.15em/1em 'Helvetica Neue Postscript', 'Open Sans Condensed', sans-serif;
+  font: 600 1.15em/1em "HelveticaNeue Postscript";
   border-radius: 0;
   padding: 0.9em 3.3em;
   background: #f5f5f5;
@@ -6621,7 +6621,7 @@ blockquote footer a {
 /*change css file name to change date picker style */
 /*Fonts*/
 .playball-font {
-  font-family: "Helvetica Neue Postscript", 'Playball';
+  font-family: "HelveticaNeue Postscript";
 }
 
 section.row {
@@ -6683,18 +6683,18 @@ body {
 .nhs-caption .this-title {
   margin-top: 0;
   margin-bottom: 20px;
-  font: 48px/52px "Helvetica Neue Postscript", "Playball", cursive;
+  font: 48px/52px "HelveticaNeue Postscript";
   color: #fff;
 }
 .nhs-caption .this-stitle {
-  font: italic 30px/1.2 "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: italic 30px/1.2 "HelveticaNeue Postscript";
   margin-top: 0;
   margin-bottom: 35px;
   color: #fff;
   animation-delay: 200ms !important;
 }
 .nhs-caption p {
-  font: 17px/26px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 17px/26px "HelveticaNeue Postscript";
   color: #fff;
   letter-spacing: 0.3px;
   margin-bottom: 40px;
@@ -6711,7 +6711,7 @@ body {
   padding: 0 25px;
   display: inline-block;
   font-weight: bold;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   text-transform: uppercase;
   color: #fff;
 }
@@ -6728,7 +6728,7 @@ body {
   padding: 0 25px;
   display: inline-block;
   font-weight: bold;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   text-transform: uppercase;
   background: #1bb0e7;
   color: #fff;
@@ -6746,7 +6746,7 @@ body {
   padding: 0 25px;
   display: inline-block;
   font-weight: bold;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   text-transform: uppercase;
   background: #fdbe57;
   color: #a51437;
@@ -6801,7 +6801,7 @@ body {
   font-style: italic;
   font-size: 20px;
   line-height: 1.4;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   margin-bottom: 30px;
 }
 .nhs-caption6 a + a, .nhs-caption7 a + a {
@@ -6872,7 +6872,7 @@ body {
 }
 .n-welcome-block .this-title {
   margin-top: 18px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "PT Serif", serif;
+  font-family: "HelveticaNeue Postscript";
   font-style: italic;
   font-size: 22px;
   color: #0e1322;
@@ -6963,7 +6963,7 @@ body {
 }
 .bee-accordion .panel-heading a:after {
   display: table-cell;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Alegreya", serif;
+  font-family: "HelveticaNeue Postscript";
   width: 47px;
   text-align: center;
   font-size: 28px;
@@ -7002,16 +7002,16 @@ body {
   line-height: 24px;
   color: #242424;
   font-weight: bold;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
 }
 .bee-accordion p {
-  font: 14px/24px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 14px/24px "HelveticaNeue Postscript";
   color: #a51437;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
 }
 .bee-accordion .nav li {
-  font: 14px/26px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 14px/26px "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #757575;
 }
@@ -7057,10 +7057,10 @@ body {
   margin-top: 0;
   margin-bottom: 24px;
   color: #fff;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
 }
 .nasir-activity p {
-  font: 16px/26px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 16px/26px "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #fff;
   margin: 0;
@@ -7149,7 +7149,7 @@ body {
   color: #a51437;
   text-transform: uppercase;
   font-size: 35px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
 }
 .nasir-welcome-style .this-title {
   font-size: 50px;
@@ -7158,11 +7158,11 @@ body {
   margin-top: 10px;
   margin-bottom: 30px;
   font-weight: 800;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   color: #000;
 }
 .nasir-welcome-style p {
-  font: 15px/26px "Helvetica Neue Postscript";
+  font: 15px/26px "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #a51437;
   margin: 0;
@@ -7191,7 +7191,7 @@ body {
   position: relative;
 }
 .room-and-suits-style:before {
-  background: url(../images/rooms/banner.png) no-repeat fixed center center #b9c7d4;
+  background: url(../images/photoshoot/Conference\ hall/4.jpg) no-repeat fixed center center #b9c7d4;
   background-size: cover;
   background-blend-mode: multiply;
   opacity: 0.9;
@@ -7253,7 +7253,7 @@ body {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.3px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
 }
 .nasir-activities2 .nav li {
   position: relative;
@@ -7320,12 +7320,12 @@ body {
 }
 .nasir-activities2 .this-ftitle {
   font-size: 22px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   margin: 0;
 }
 .nasir-activities2 .this-stitle {
   margin: 0;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: bold;
 }
 
@@ -7369,7 +7369,7 @@ body {
   font-size: 15px;
   line-height: 22px;
   color: #c1c1c1;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
 }
 .nasir-contact-box .media .media-body a:hover, .nasir-contact-box .media .media-body a:focus {
   color: #a51437;
@@ -7379,7 +7379,7 @@ body {
 .nasir-home-search-block {
   margin: 0;
   padding: 260px 0 120px;
-  background: url(../images/hotel/exterior1.jpg) no-repeat scroll center center;
+  background: url(../images/photoshoot/Hotel\ Outside\ view/3.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 .nasir-home-search-block .search-sec {
@@ -7407,7 +7407,7 @@ body {
   box-shadow: none;
   height: 42px;
   padding: 0 20px;
-  font: italic 15px/40px "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: italic 15px/40px "HelveticaNeue Postscript";
   color: #4b4b4b;
 }
 .nasir-home-search-block .this-title {
@@ -7415,7 +7415,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
   font-size: 34px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   line-height: 1;
   letter-spacing: 0.30px;
   color: #0e1322;
@@ -7446,7 +7446,7 @@ body {
 .nasir-home-search-block .ui-selectmenu-button .ui-selectmenu-text {
   height: 42px;
   padding: 0 20px;
-  font: italic 15px/40px "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font: italic 15px/40px "HelveticaNeue Postscript";
   color: #4b4b4b;
 }
 .nasir-home-search-block .ui-selectmenu-button.ui-state-focus {
@@ -7499,14 +7499,14 @@ body {
   z-index: 2;
 }
 .explore-video .this-title {
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   font-size: 50px;
   margin: 0 0 15px;
   letter-spacing: 0.3px;
 }
 .explore-video .this-stitle {
   letter-spacing: 0.3px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   margin-top: 0;
 }
 .explore-video a {
@@ -7525,7 +7525,7 @@ body {
 }
 .download-theme .media-body {
   font-size: 40px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #fff;
 }
@@ -7602,14 +7602,14 @@ body {
   transform: scale(1.1);
 }
 .fpackage .this-title {
-  font: bold 18px/26px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: bold 18px/26px "HelveticaNeue Postscript";
   color: #000;
   letter-spacing: 0.3px;
   margin-bottom: 20px;
   display: block;
 }
 .fpackage p {
-  font: 15px/26px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 15px/26px "HelveticaNeue Postscript";
   color: #a51437;
   margin: 0;
 }
@@ -7937,14 +7937,14 @@ body {
 }
 .nasir-subscribe-form-row h2 {
   color: #fff;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Raleway", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: 600;
   font-size: 20px;
   margin: 0 0 5px;
 }
 .nasir-subscribe-form-row h3 {
   color: #fff;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: 400;
   font-size: 16px;
   margin: 0;
@@ -7976,7 +7976,7 @@ body {
 }
 .nasir-subscribe-form-row .form-control {
   border-radius: 5px;
-  font: 400 1.15em/1em 'Helvetica Neue Postscript', 'PT Serif', serif;
+  font: 400 1.15em/1em "HelveticaNeue Postscript";
   color: #656565;
   border: 1px solid #7da100;
   height: 46px;
@@ -8763,28 +8763,28 @@ body {
 }
 .nroom-grid .this-title {
   vertical-align: middle;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   font-size: 26px;
   color: #242424;
   letter-spacing: 0.3px;
 }
 .nroom-grid .media-right {
   font-size: 24px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Playball", cursive;
+  font-family: "HelveticaNeue Postscript";
   white-space: nowrap;
   color: #242424;
 }
 .nroom-grid .media-right small {
   display: block;
   font-size: 14px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   color: #888;
 }
 .nroom-grid p {
   margin: 20px 0 25px;
   font-weight: 600;
   color: #8e8e8e;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   line-height: 26px;
 }
 .nroom-grid .read-more {
@@ -8796,7 +8796,7 @@ body {
   border-radius: 3px;
   text-transform: uppercase;
   display: inline-block;
-  font: 400 0.88em/38px "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font: 400 0.88em/38px "HelveticaNeue Postscript";
 }
 .nroom-grid .read-more i {
   margin-left: 10px;
@@ -8832,7 +8832,7 @@ body {
   }
   #main-navigation-wrapper .nav > li.open > .dropdown-menu li a {
     font-weight: 600;
-    font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+    font-family: "HelveticaNeue Postscript";
   }
   #main-navigation-wrapper .nav > li.open > .dropdown-menu li a:before {
     content: '-';
@@ -8924,7 +8924,7 @@ body {
   font-size: 13px;
   line-height: 22px;
   color: #fff;
-  font-family: "Helvetica Neue Postscript", 'Helvetica Neue Postscript', 'Open Sans';
+  font-family: "HelveticaNeue Postscript";
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -9097,7 +9097,7 @@ body {
 #main-navigation-wrapper .nav > li > a {
   padding: 25px 0;
   font-size: 14px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
@@ -9218,7 +9218,7 @@ body {
   color: #fdbe57;
   border-bottom: 1px solid #fdbe57;
   font-size: 14px;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: 700;
   text-align: left;
   transition: background .4s ease;
@@ -9352,7 +9352,7 @@ body {
 .side-menu .title-box h4 {
   font-size: 18px;
   line-height: 1.733333;
-  font-family: "Helvetica Neue Postscript", 'Helvetica Neue Postscript', 'Open Sans';
+  font-family: "HelveticaNeue Postscript";
   color: #a51437;
   font-weight: 600;
   font-style: italic;
@@ -9749,7 +9749,7 @@ body {
 .final-inner-header .this-title {
   margin: 0;
   letter-spacing: 0.3px;
-  font-family: "Helvetica Neue Postscript", cursive;
+  font-family: "HelveticaNeue Postscript";
   text-transform: capitalize;
   font-size: 55px;
   color: #a51437;
@@ -9775,7 +9775,7 @@ body {
   float: left;
 }
 .final-breadcrumb .breadcrumb li {
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
@@ -10179,7 +10179,7 @@ body {
 .fullwidth-slider .this-title {
   font-size: 15px;
   font-weight: bold;
-  font-family: "Helvetica Neue Postscript", "Helvetica Neue Postscript", "Open Sans", sans-serif;
+  font-family: "HelveticaNeue Postscript";
   color: #fff;
   margin: 0;
   position: relative;
@@ -10227,7 +10227,7 @@ video {
 
 @media (max-width: 540px) {
   video {
-    margin-top: 155px;
+    
   }
 
   #main-navigation-wrapper .nav > li > a {
@@ -10353,5 +10353,28 @@ video {
 @media(min-width: 992px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 100px;
+  }
+}
+
+.top-bar .contact-infos ul li + li {
+  width: 65%;
+  text-align: center !important;
+}
+
+@media(min-width: 540px) {
+  .widget.about-us-widget.slim {
+    margin-top: -28px;
+    margin-left: 5px;
+  }
+}
+
+@media(max-width: 540px) {
+  .widget.about-us-widget.slim > .pull-right {
+    float: left !important;
+    padding: 0;
+  }
+  .widget.about-us-widget.slim {
+    margin-top: -28px;
+    margin-left: 0px;
   }
 }
