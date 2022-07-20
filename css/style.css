@@ -116,7 +116,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   letter-spacing: 0.2px;
-  color: #a51437;
+  color: #000;
   /* background-color: rgb(237,231,221); */
   background-color: #fff;
 }
@@ -131,7 +131,7 @@ html {
   background: #fdbe57;
   font-size: 14px;
   line-height: 28px;
-  color: #a51437;
+  color: #000;
   text-transform: uppercase;
   font-family: "HelveticaNeue Postscript";
   font-weight: 600;
@@ -955,7 +955,7 @@ header {
   border-radius: 0;
   height: 40px;
   font: 400 1.0715em/1em 'Helvetica Neue Postscript','PT Serif', serif;
-  font-style: italic;
+  
   color: #4b4b4b;
   border: 1px solid #414a68;
   width: 94%;
@@ -966,7 +966,7 @@ header {
   border-radius: 0;
   height: 40px;
   font: 400 1.0715em/1em 'Helvetica Neue Postscript','PT Serif', serif;
-  font-style: italic;
+  
   color: #4a4a4a;
   border: 1px solid #414a68;
   width: 94%;
@@ -985,14 +985,14 @@ header {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #a51437;
+  color: #000;
 }
 
 .ser-in-box .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
   padding: 0;
   font: 400 1.039em/1em "HelveticaNeue Postscript";
   line-height: 40px;
-  font-style: italic;
+  
   color: #4a4a4a;
 }
 
@@ -1017,7 +1017,7 @@ header {
 .ui-selectmenu-menu .ui-menu-item {
   font-size: 16px;
   font-family: "HelveticaNeue Postscript";
-  font-style: italic;
+  
   padding: 5px 20px;
   border-bottom: 1px solid #E1E1E1;
   text-transform: capitalize;
@@ -1076,7 +1076,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background: #a51437;
+  background: #000;
   padding: 10px;
   transform: scale(0, 0);
   -webkit-transform: scale(0, 0);
@@ -1107,7 +1107,7 @@ header {
   color: #f1be48;
   margin: 0;
   padding: 0 0 0.5em;
-  font-style: italic;
+  
 }
 
 .wel-box .overlay .icon_position_table .icon_container p {
@@ -1152,7 +1152,7 @@ header {
   font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 1em;
   padding: 0;
-  font-style: italic;
+  
   position: relative;
 }
 
@@ -1163,12 +1163,12 @@ header {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .wel-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -1182,7 +1182,7 @@ header {
   color: #0e1322;
   text-align: center;
   font: 400 1.57em/1.4em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   margin: 0.5em 0 0;
   padding: 0;
 }
@@ -1215,9 +1215,8 @@ header {
 .sec-header h3 {
   color: #fff;
   font: 400 1.15em/1.8em "HelveticaNeue Postscript";
-  margin: 0 0 2.7em;
+  margin: 0 0 1em;
   padding: 0;
-  font-style: italic;
   position: relative;
 }
 
@@ -1244,23 +1243,17 @@ header {
 }
 
 .sec-header3 h3 {
-  color: #a51437;
-  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
-  margin: 0 0 2.1em;
+  color: #000;
+  margin: 0 0 1em;
   padding: 0;
-  font-style: italic;
-  position: relative;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .sec-header3 h3:after {
-  content: '';
-  position: absolute;
-  bottom: 7px;
-  width: 60px;
-  height: 2px;
-  display: inline-block;
-  background: #a51437;
-  margin: 0 0 0 12px;
+  color: #000;
+  margin: 0 0 3em;
+  padding: 0;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .room-suite .item {
@@ -1293,7 +1286,7 @@ header {
 
 .room-suite .item .ro-img:before {
   position: absolute;
-  background-color: rgba(165, 20, 55, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   content: "";
   top: 0;
   left: 0;
@@ -1352,7 +1345,7 @@ header {
 .room-suite .item .right-p p span {
   display: block;
   font: 400 0.6em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #888;
 }
 
@@ -1430,7 +1423,7 @@ header {
   font: 400 1.15em/1.8em "HelveticaNeue Postscript";
   margin: 0 0 1.5em;
   padding: 0;
-  font-style: italic;
+  
   position: relative;
 }
 
@@ -1563,7 +1556,7 @@ header {
   overflow: hidden;
   position: relative;
   height: 100%;
-  background: rgba(165, 20, 55, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   width: 12vw;
   padding: 1.5em 1.5em;
 }
@@ -1692,7 +1685,7 @@ header {
 }
 
 .our-res .single-tab-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -1780,7 +1773,7 @@ header {
   margin: 0 0 1.8em;
   padding: 0;
   color: #fff;
-  font-style: italic;
+  
 }
 
 .promo-wrapper .promo-imgslider .promo-content a {
@@ -1789,7 +1782,7 @@ header {
   border: 1px solid #fff;
   color: #fff;
   font: 400 1.22em/1.8em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .promo-wrapper .promo-imgslider .promo-content a:hover {
@@ -1902,7 +1895,7 @@ header {
 .testimonial-p .media-body p {
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
-  color: #a51437;
+  color: #000;
   margin-bottom: 1em;
 }
 
@@ -1910,7 +1903,7 @@ header {
   font: 600 1.0715em/1em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
   color: #1f4d84;
-  font-style: italic;
+  
   text-align: left;
   display: block;
 }
@@ -2047,7 +2040,7 @@ header {
   font: 400 1.15em/1em "HelveticaNeue Postscript";
   color: #a6a6a6;
   padding-right: 13px;
-  font-style: italic;
+  
 }
 
 .news-meta a + a:before {
@@ -2130,7 +2123,7 @@ header {
   height: 44px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-style: italic;
+  
 }
 
 .res-btn i {
@@ -2148,13 +2141,13 @@ header {
   18. footer style
 ============================== */
 footer {
-  background: #a51437;
+  background: #000;
   position: relative;
 }
 
 .footer-wrapper {
   position: relative;
-  background: #a51437;
+  background: #000;
 }
 
 .footer-pad {
@@ -2221,7 +2214,7 @@ footer {
   margin-top: 0px;
   text-transform: uppercase;
   margin-bottom: 24px;
-  font-style: italic;
+  
 }
 
 .widget-contact h4:after, .get-in-touch h4:after, .widget-links h4:after {
@@ -2716,27 +2709,24 @@ footer {
 }
 
 .about-info-box p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .about-info-box h6 {
-  color: #a51437;
-  font: 400 1.3em/1.5em "HelveticaNeue Postscript";
-  margin: 0;
-  padding: 1.5em 0;
-  border-top: 1px solid #d6d6d6;
-  border-bottom: 1px solid #d6d6d6;
-  font-style: italic;
+  color: #000;
+  margin: 0 0 3em;
+  padding: 0;
+  font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .about-info-box ul li {
   display: inline-block;
   font: 400 1.43em/1em "HelveticaNeue Postscript";
   color: #000;
-  font-style: italic;
+  
 }
 
 .about-info-box ul {
@@ -2904,15 +2894,15 @@ footer {
   font: 3.65em/1em "HelveticaNeue Postscript";
   margin: 0 0 0.8em;
   padding: 0;
-  color: #a51437;
+  color: #000;
 }
 
 .check-video-box .img-holder .content .content-inner .box h4 {
   font: 400 2.35em/1.8em "HelveticaNeue Postscript";
   margin: 1.2em 0 0;
   padding: 0;
-  color: #a51437;
-  font-style: italic;
+  color: #000;
+  
 }
 
 .check-video-box .img-holder .content .content-inner .box a {
@@ -2969,12 +2959,12 @@ footer {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .room-wrapper .media-body p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -2985,7 +2975,7 @@ footer {
   margin: 0 0 0.5em;
   padding: 0;
   font: 600 1.23em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .room-wrapper .media-body h6 {
@@ -2993,7 +2983,7 @@ footer {
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .room-wrapper .media-right {
@@ -3014,7 +3004,7 @@ footer {
 .room-wrapper .media-right p span {
   display: block;
   font: 400 0.4em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #888;
   margin: 0 0 2em;
 }
@@ -3086,7 +3076,7 @@ footer {
 }
 
 .room-t-wrapper .content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -3106,7 +3096,7 @@ footer {
 .room-t-wrapper .content .bottom-content p span {
   display: block;
   font: 400 0.4em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #888;
   margin: 0 0 2em;
 }
@@ -3116,7 +3106,7 @@ footer {
   padding: 9px 20px;
   margin: 0;
   letter-spacing: 0.6px;
-  color: #a51437;
+  color: #000;
   border-radius: 3px;
   text-transform: uppercase;
   font: 400 0.88em/1em "HelveticaNeue Postscript";
@@ -3207,7 +3197,7 @@ footer {
   width: 35px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -3252,7 +3242,7 @@ footer {
 }
 
 .single-sidebar-widget .categories ul li a {
-  color: #a51437;
+  color: #000;
   text-transform: capitalize;
   line-height: 42px;
   display: block;
@@ -3325,7 +3315,7 @@ footer {
 .single-sidebar-widget .popular-post .content h6 span {
   display: inline-block;
   font: 600 0.63em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .single-sidebar-widget .tag-cloud {
@@ -3366,7 +3356,7 @@ footer {
   display: table-cell;
   vertical-align: middle;
   font: 400 1.15em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .single-blog-post .date-box {
@@ -3410,7 +3400,7 @@ footer {
 .single-blog-post .inner-box b {
   font-size: 2em;
   display: block;
-  font-style: italic;
+  
   font-weight: 300;
   border-bottom: 1px solid #696969;
   padding: 0 0 0.2em;
@@ -3484,7 +3474,7 @@ footer {
 }
 
 .single-blog-post p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -3555,7 +3545,7 @@ blockquote p {
   float: left;
   font: 400 1.2em/1em "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
-  color: #a51437;
+  color: #000;
   width: -webkit-calc(100% - 70px);
   width: calc(100% - 70px);
   margin: 5px 0 0;
@@ -3566,14 +3556,14 @@ blockquote footer {
   text-align: right;
   color: #e8a20c;
   font: 400 1.2em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   background: transparent;
 }
 
 blockquote footer a {
   color: #e8a20c;
   font: 400 0.8em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 /* ==============================
@@ -3650,7 +3640,7 @@ blockquote footer a {
 
 .comments .comment .media-body p {
   font: 400 14px/30px "HelveticaNeue Postscript";
-  color: #a51437;
+  color: #000;
 }
 
 .comments .comment .media-body .date-reply {
@@ -3860,7 +3850,7 @@ blockquote footer a {
 
 .gallery-filter li.active span,
 .gallery-filter li:hover span {
-  color: #a51437;
+  color: #000;
 }
 
 .gallery-filter li.active span:after,
@@ -3989,7 +3979,7 @@ blockquote footer a {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background: rgba(165, 20, 55, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   opacity: 0;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
@@ -4102,7 +4092,7 @@ blockquote footer a {
 }
 
 .book-right h2 {
-  color: #a51437;
+  color: #000;
   font: 2em/1em "HelveticaNeue Postscript";
   margin: 1.5em 0 0.5em;
   padding: 0;
@@ -4116,12 +4106,12 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .book-right p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -4149,7 +4139,7 @@ blockquote footer a {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #a51437;
+  color: #000;
 }
 
 .book-left-content .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
@@ -4182,7 +4172,7 @@ blockquote footer a {
 }
 
 .input_form #success {
-  color: #a51437;
+  color: #000;
 }
 
 .input_form #success p, .input_form #error p {
@@ -4202,7 +4192,7 @@ blockquote footer a {
   right: 0;
   left: 0;
   bottom: -15px;
-  background: rgba(165, 20, 55, 1);
+  background: rgba(0, 0, 0, 1);
   display: none;
 }
 
@@ -4223,7 +4213,7 @@ blockquote footer a {
   border-radius: 0;
   height: 40px;
   font: 400 1.0715em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #4b4b4b;
   border: 1px solid #e9e9e9;
 }
@@ -4252,7 +4242,7 @@ blockquote footer a {
   border-radius: 0;
   height: 40px;
   font: 400 1.0715em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #4b4b4b;
   border: 1px solid #e9e9e9;
   width: 100%;
@@ -4287,7 +4277,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -4307,7 +4297,7 @@ blockquote footer a {
   -moz-border-radius: 50%;
   border-radius: 50%;
   overflow: hidden;
-  background: #a51437;
+  background: #000;
 }
 
 .contact-info .media-contact-icon i {
@@ -4324,14 +4314,14 @@ blockquote footer a {
 }
 
 .contact-info .media-contact-info p {
-  color: #a51437;
+  color: #000;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .contact-info .media-contact-info p a {
-  color: #a51437;
+  color: #000;
 }
 
 .contact-info .media-contact-info p a:hover {
@@ -4409,7 +4399,7 @@ blockquote footer a {
   border: 1px solid #e3e3e3;
   border-radius: 0;
   font: 400 1.0715em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #4b4b4b;
   margin-bottom: 20px;
 }
@@ -4419,7 +4409,7 @@ blockquote footer a {
   border-radius: 0;
   height: 40px;
   font: 400 1.0715em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #4b4b4b;
   border: 1px solid #e3e3e3;
   width: 100%;
@@ -4442,14 +4432,14 @@ blockquote footer a {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #a51437;
+  color: #000;
 }
 
 .book-r-form .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
   padding: 0;
   font: 400 1.039em/1em "HelveticaNeue Postscript";
   line-height: 40px;
-  font-style: italic;
+  
   color: #4a4a4a;
 }
 
@@ -4547,12 +4537,12 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .single-room-wrapper .room-dec-wrapper p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -4577,7 +4567,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -4640,14 +4630,14 @@ blockquote footer a {
 
 .single-room-wrapper .room-overview .table > tbody > tr > td {
   border-top: 1px solid transparent;
-  color: #a51437;
+  color: #000;
   font: 400 1.0715em/1em "HelveticaNeue Postscript";
   padding: 13px 30px;
 }
 
 .single-room-wrapper .room-overview h5 {
   font: 400 1.3em/1.5em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   padding: 0;
   margin-bottom: 3em;
   margin-top: 1em;
@@ -4867,7 +4857,7 @@ blockquote footer a {
   font: 400 1.22em/1.5em "HelveticaNeue Postscript";
   margin: 0 0 1.7em;
   padding: 0;
-  font-style: italic;
+  
 }
 
 .home-slider2 .carousel-caption a {
@@ -4963,7 +4953,7 @@ blockquote footer a {
 }
 
 .activities-cont p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5005,7 +4995,7 @@ blockquote footer a {
 }
 
 .our-offer-left p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5153,7 +5143,7 @@ blockquote footer a {
   text-align: center;
   font-size: 20px;
   line-height: 33px;
-  color: #a51437;
+  color: #000;
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
 }
@@ -5164,7 +5154,7 @@ blockquote footer a {
 
 .fullwidth-slider.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
   background: #f1be48;
-  color: #a51437;
+  color: #000;
   text-decoration: none;
 }
 
@@ -5193,7 +5183,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -5342,7 +5332,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -5378,7 +5368,7 @@ blockquote footer a {
 
 .room-suite-htwo .item .ro-txt h2 {
   color: #242424;
-  font: 1.86em/1em "HelveticaNeue Postscript";
+  font: 1.5em/1em "HelveticaNeue Postscript";
   padding: 0;
   margin: 1em 0 0.7em;
   position: relative;
@@ -5391,7 +5381,7 @@ blockquote footer a {
   width: 35px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -5440,7 +5430,7 @@ blockquote footer a {
 .room-suite-htwo .ro-text-two .right-p-two p span {
   display: block;
   font: 400 0.5em/1.3em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #fff;
 }
 
@@ -5465,7 +5455,7 @@ blockquote footer a {
   text-align: center;
   font-size: 20px;
   line-height: 33px;
-  color: #a51437;
+  color: #000;
   float: left;
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
@@ -5501,7 +5491,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -5516,7 +5506,7 @@ blockquote footer a {
 }
 
 .aminities-wrapper p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5612,7 +5602,7 @@ blockquote footer a {
   transition: all 0.5s ease-in-out;
   color: #0e1322;
   font: 400 1.55em/1em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .view-aminities p {
@@ -5626,7 +5616,7 @@ blockquote footer a {
   transition: all 0.5s ease-in-out;
   font: 400 1.0715em/1.7em "HelveticaNeue Postscript";
   padding: 0 1.5em 1.7em;
-  color: #a51437;
+  color: #000;
   margin: 0;
 }
 
@@ -5715,12 +5705,12 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .activities-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5736,7 +5726,7 @@ blockquote footer a {
 }
 
 .activities-main p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5751,7 +5741,7 @@ blockquote footer a {
 }
 
 .offer-main p {
-  color: #a51437;
+  color: #000;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5778,12 +5768,12 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .offer-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -5828,7 +5818,7 @@ blockquote footer a {
 .offer-b-price p span {
   display: block;
   font: 400 0.53em/1.3em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   color: #888;
 }
 
@@ -5907,12 +5897,12 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .family-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -6092,7 +6082,7 @@ blockquote footer a {
   position: relative;
   margin: 0 0 1.7em;
   padding: 0;
-  font-style: italic;
+  
 }
 
 .hidden-bar .side-gallery ul {
@@ -6154,7 +6144,7 @@ blockquote footer a {
 }
 
 .hidden-bar-two .logo-side p {
-  color: #a51437;
+  color: #000;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -6167,7 +6157,7 @@ blockquote footer a {
 .hidden-bar-two .hidden-bar-closer {
   background: #fff;
   border: 1px solid #d0d0d0;
-  color: #a51437;
+  color: #000;
   line-height: 30px;
   border-radius: 0;
   right: 30px;
@@ -6212,12 +6202,12 @@ blockquote footer a {
 }
 
 .hidden-bar-two .side-gallery h3 {
-  color: #a51437;
+  color: #000;
   font: 600 1.26em/1em "HelveticaNeue Postscript";
   position: relative;
   margin: 0 0 1.7em;
   padding: 0;
-  font-style: italic;
+  
 }
 
 .hidden-bar-two .side-gallery h3:after {
@@ -6227,7 +6217,7 @@ blockquote footer a {
   width: 35px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -6251,7 +6241,7 @@ blockquote footer a {
 }
 
 .hidden-bar-two .side-email a {
-  color: #a51437;
+  color: #000;
   font: 400 1.1em/1.7em "HelveticaNeue Postscript";
   margin: 0;
   padding: 0;
@@ -6289,7 +6279,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -6308,23 +6298,23 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
 .m-traking .maount-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
 }
 
 .m-traking .maount-content h5 {
-  color: #a51437;
+  color: #000;
   margin: 0 0 0.3em;
   padding: 1em 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
-  font-style: italic;
+  
   border-top: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
 }
@@ -6398,11 +6388,11 @@ blockquote footer a {
   margin: 0 0 0.7em;
   padding: 0;
   position: relative;
-  font-style: italic;
+  
 }
 
 .rest-content p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -6416,9 +6406,9 @@ blockquote footer a {
 .rest-content ul li {
   padding: 0 0 0 1em;
   margin: 0;
-  color: #a51437;
+  color: #000;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
-  font-style: italic;
+  
 }
 
 .rest-content ul li:before {
@@ -6427,7 +6417,7 @@ blockquote footer a {
   width: 3px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0;
   background: none;
   left: 0;
@@ -6439,7 +6429,7 @@ blockquote footer a {
 }
 
 .our-special-wrapper p {
-  color: #a51437;
+  color: #000;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -6515,7 +6505,7 @@ blockquote footer a {
 }
 
 .tab-inner-cont .media .media-left p {
-  color: #a51437;
+  color: #000;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "HelveticaNeue Postscript";
@@ -6527,7 +6517,7 @@ blockquote footer a {
 }
 
 .tab-inner-cont .media .media-right p {
-  color: #a51437;
+  color: #000;
   font: 2.72em/1em "HelveticaNeue Postscript";
   margin: 0.2em 0;
   padding: 0;
@@ -6559,7 +6549,7 @@ blockquote footer a {
   width: 60px;
   height: 2px;
   display: inline-block;
-  background: #a51437;
+  background: #000;
   margin: 0 0 0 12px;
 }
 
@@ -6585,7 +6575,7 @@ blockquote footer a {
   height: auto;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-style: italic;
+  
   background: transparent;
 }
 
@@ -6749,7 +6739,7 @@ body {
   font-family: "HelveticaNeue Postscript";
   text-transform: uppercase;
   background: #fdbe57;
-  color: #a51437;
+  color: #000;
 }
 .nhs-btn2:hover, .nhs-btn2:focus {
   color: #fdbe57;
@@ -6759,7 +6749,7 @@ body {
 
 .nhs-btn2-sm {
   line-height: 38px;
-  color: #a51437;
+  color: #000;
 }
 
 .nhs-caption1 .this-title, .nhs-caption1 p {
@@ -6798,7 +6788,7 @@ body {
   line-height: 1.13;
 }
 .nhs-caption6 p, .nhs-caption7 p {
-  font-style: italic;
+  
   font-size: 20px;
   line-height: 1.4;
   font-family: "HelveticaNeue Postscript";
@@ -6860,7 +6850,7 @@ body {
 .n-welcome-blocks .sec-header + p {
   font-size: 15px;
   line-height: 26px;
-  color: #a51437;
+  color: #000;
   margin-bottom: 45px;
 }
 
@@ -6873,14 +6863,14 @@ body {
 .n-welcome-block .this-title {
   margin-top: 18px;
   font-family: "HelveticaNeue Postscript";
-  font-style: italic;
+  
   font-size: 22px;
   color: #0e1322;
 }
 .n-welcome-block p {
   font-size: 14px;
   line-height: 26px;
-  color: #a51437;
+  color: #000;
   margin-bottom: 22px;
 }
 
@@ -6904,7 +6894,7 @@ body {
 .driving-direction .sec-header-two + p {
   font-size: 15px;
   line-height: 24px;
-  color: #a51437;
+  color: #000;
   margin-bottom: 25px;
 }
 
@@ -6921,7 +6911,7 @@ body {
 .direction-lists li + li {
   padding-right: 0;
   padding-left: 45px;
-  border-left: 1px solid #a51437;
+  border-left: 1px solid #000;
 }
 .direction-lists li small {
   font-size: 24px;
@@ -6929,7 +6919,7 @@ body {
 .direction-lists li span {
   display: block;
   font-size: 14px;
-  color: #a51437;
+  color: #000;
   margin-top: 5px;
 }
 
@@ -6967,7 +6957,7 @@ body {
   width: 47px;
   text-align: center;
   font-size: 28px;
-  color: #a51437;
+  color: #000;
   vertical-align: middle;
 }
 .bee-accordion .panel-heading [aria-expanded="false"]:after {
@@ -7006,7 +6996,7 @@ body {
 }
 .bee-accordion p {
   font: 14px/24px "HelveticaNeue Postscript";
-  color: #a51437;
+  color: #000;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
 }
@@ -7102,7 +7092,7 @@ body {
   border-radius: 4px;
   border: 1px solid rgba(169, 169, 169, 0.54);
   padding: 13px 23px;
-  background-color: rgba(165, 20, 55, 1);
+  background-color: rgba(0, 0, 0, 1);
 }
 .search-sec-homet.nasir-style .res-btn {
   white-space: nowrap;
@@ -7146,32 +7136,24 @@ body {
 }
 .nasir-welcome-style .this-wtitle {
   margin: 0;
-  color: #a51437;
+  color: #000;
   text-transform: uppercase;
   font-size: 35px;
   font-family: "HelveticaNeue Postscript";
 }
 .nasir-welcome-style .this-title {
-  font-size: 50px;
-  line-height: 55px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-weight: 800;
-  font-family: "HelveticaNeue Postscript";
+  font: 15px/26px "HelveticaNeue Postscript";
+  letter-spacing: 0.3px;
   color: #000;
+  margin: 0;
+  padding-bottom: 10px;
 }
 .nasir-welcome-style p {
   font: 15px/26px "HelveticaNeue Postscript";
   letter-spacing: 0.3px;
-  color: #a51437;
+  color: #000;
   margin: 0;
   padding-bottom: 40px;
-}
-.nasir-welcome-style p + p {
-  padding-bottom: 0;
-  padding-top: 28px;
-  border-top: 1px solid #d9d9d9;
 }
 
 .nwelcomestyle {
@@ -7188,6 +7170,7 @@ body {
 .room-and-suits-style {
   background: #b9c7d4;
   margin: 0;
+  margin-top: 10px;
   position: relative;
 }
 .room-and-suits-style:before {
@@ -7249,7 +7232,7 @@ body {
 }
 .nasir-activities2 .sec-header + p {
   margin-bottom: 55px;
-  color: #a51437;
+  color: #000;
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.3px;
@@ -7361,7 +7344,7 @@ body {
   line-height: 49px;
   border-radius: 100%;
   color: #ede7dd;
-  background: #a51437;
+  background: #000;
   font-size: 30px;
   text-align: center;
 }
@@ -7372,7 +7355,7 @@ body {
   font-family: "HelveticaNeue Postscript";
 }
 .nasir-contact-box .media .media-body a:hover, .nasir-contact-box .media .media-body a:focus {
-  color: #a51437;
+  color: #000;
 }
 
 /*Search Form*/
@@ -7558,7 +7541,7 @@ body {
 }
 .download-theme .nhs-btn2 {
   white-space: nowrap;
-  color: #a51437;
+  color: #000;
   margin-left: 25px;
   margin-right: 15px;
 }
@@ -7610,7 +7593,7 @@ body {
 }
 .fpackage p {
   font: 15px/26px "HelveticaNeue Postscript";
-  color: #a51437;
+  color: #000;
   margin: 0;
 }
 
@@ -7657,7 +7640,7 @@ body {
   border-radius: 3px;
   padding: 0 36px;
   line-height: 50px;
-  color: #a51437;
+  color: #000;
 }
 
 .have-query .nhs-btn2:hover {
@@ -7827,7 +7810,7 @@ body {
   z-index: 999;
 }
 .header-abscont .top-bar {
-  background-color: rgba(165, 20, 55, 1);
+  background-color: rgba(0, 0, 0, 1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .header-abscont #main-navigation-wrapper.navbar-default {
@@ -7852,10 +7835,10 @@ body {
   }
 }
 .header-abscont #main-navigation-wrapper.navbar-default.stricky-fixed {
-  background: #a51437;
-  background-image: -moz-linear-gradient(90deg, #a51437 0%, #a51437 100%);
-  background-image: -webkit-linear-gradient(90deg, #a51437 0%, #a51437 100%);
-  background-image: -ms-linear-gradient(90deg, #a51437 0%, #a51437 100%);
+  background: #000;
+  background-image: -moz-linear-gradient(90deg, #000 0%, #000 100%);
+  background-image: -webkit-linear-gradient(90deg, #000 0%, #000 100%);
+  background-image: -ms-linear-gradient(90deg, #000 0%, #000 100%);
 }
 .header-abscont #main-navigation-wrapper.navbar-default.stricky-fixed .navbar-toggle {
   border-color: #fff;
@@ -7982,7 +7965,7 @@ body {
   height: 46px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-style: italic;
+  
 }
 @media (max-width: 479px) {
   .nasir-subscribe-form-row .form-control {
@@ -8865,19 +8848,19 @@ body {
   letter-spacing: 0.3px;
 }
 .nav-search-form .form-control.placeholder {
-  font-style: italic;
+  
   color: #636363;
 }
 .nav-search-form .form-control::-moz-placeholder {
-  font-style: italic;
+  
   color: #636363;
 }
 .nav-search-form .form-control::-webkit-input-placeholder {
-  font-style: italic;
+  
   color: #636363;
 }
 .nav-search-form .form-control::-ms-input-placeholder {
-  font-style: italic;
+  
   color: #636363;
 }
 .nav-search-form .input-group-addon {
@@ -8984,13 +8967,13 @@ body {
 }
 
 #main-navigation-wrapper.navbar-default {
-  background: #a51437;
+  background: #000;
   border: none;
   min-height: auto;
-  background: #a51437;
-  background-image: -moz-linear-gradient(90deg, #a51437 0%, #a51437 100%);
-  background-image: -webkit-linear-gradient(90deg, #a51437 0%, #a51437 100%);
-  background-image: -ms-linear-gradient(90deg, #a51437 0%, #a51437 100%);
+  background: #000;
+  background-image: -moz-linear-gradient(90deg, #000 0%, #000 100%);
+  background-image: -webkit-linear-gradient(90deg, #000 0%, #000 100%);
+  background-image: -ms-linear-gradient(90deg, #000 0%, #000 100%);
   border-radius: 0;
   margin: 0;
 }
@@ -9000,7 +8983,7 @@ body {
   transition: none;
 }
 #main-navigation-wrapper.navbar-default.transBg-main-menu-header {
-  background: #a51437;
+  background: #000;
   border: none;
 }
 #main-navigation-wrapper.navbar-default.transBg-main-menu-header .navbar-brand .secondary-logo {
@@ -9046,8 +9029,8 @@ body {
   max-height: 70px;
 }
 #main-navigation-wrapper.navbar-default.stricky-fixed .navbar-brand {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 14px;
+  padding-bottom: 0px;
   height: 70px;
   line-height: 50px;
 }
@@ -9091,7 +9074,7 @@ body {
 }
 
 #main-navigation-wrapper .nav > li {
-  padding: 16px 0;
+  padding: 0px 0;
 }
 
 #main-navigation-wrapper .nav > li > a {
@@ -9183,7 +9166,7 @@ body {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   min-width: 220px;
-  background: #a51437;
+  background: #000;
   -webkit-transform: translate3d(-20px, 0, 0);
   transform: translate3d(-20px, 0, 0);
 }
@@ -9232,8 +9215,8 @@ body {
 }
 
 #main-navigation-wrapper .navbar-brand {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 14px;
+  padding-bottom: 0px;
 }
 @media (max-width: 767px) {
   #main-navigation-wrapper .navbar-brand {
@@ -9341,7 +9324,7 @@ body {
 
 .side-menu p {
   font-size: 15px;
-  color: #a51437;
+  color: #000;
   line-height: 1.733333;
 }
 
@@ -9353,9 +9336,9 @@ body {
   font-size: 18px;
   line-height: 1.733333;
   font-family: "HelveticaNeue Postscript";
-  color: #a51437;
+  color: #000;
   font-weight: 600;
-  font-style: italic;
+  
   display: inline-block;
   vertical-align: middle;
   margin: 0;
@@ -9363,7 +9346,7 @@ body {
 
 .side-menu .title-box span.decor-line {
   width: 35px;
-  background: #a51437;
+  background: #000;
   height: 2px;
   display: inline-block;
   vertical-align: middle;
@@ -9419,7 +9402,7 @@ body {
 
 .side-menu .contact-info li {
   font-size: 16px;
-  color: #a51437;
+  color: #000;
   line-height: 1;
 }
 
@@ -9459,6 +9442,17 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+#main-navigation-wrapper.navbar-default {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #000;
+}
+
 /*------------*/
 @media (min-width: 1025px) {
   #main-navigation-wrapper .navbar-nav .phone-only {
@@ -9488,6 +9482,17 @@ body {
   .search-sec .res-btn {
     padding: 6px 15px;
   }
+
+  #main-navigation-wrapper .nav > li > a {
+    padding: 25px 0;
+    font-size: 14px;
+    font-family: "HelveticaNeue Postscript";
+    font-weight: bold;
+    background-color: #000 !important;
+    color: #fff;
+    text-transform: uppercase;
+    /*padding-right: 20px;*/
+  } 
 }
 @media (max-width: 768px) {
   .hide-menu {
@@ -9581,7 +9586,7 @@ body {
   }
 
   .navbar-default .navbar-toggle:hover .icon-bar {
-    background: #a51437;
+    background: #515151;
   }
 
   .navbar-collapse.collapse {
@@ -9752,13 +9757,13 @@ body {
   font-family: "HelveticaNeue Postscript";
   text-transform: capitalize;
   font-size: 55px;
-  color: #a51437;
+  color: #000;
 }
 .final-inner-header .this-title:after {
   content: '';
   width: 60px;
   height: 2px;
-  background: #a51437;
+  background: #000;
   display: inline-block;
   margin-left: 20px;
 }
@@ -9791,7 +9796,7 @@ body {
   color: #fff;
 }
 .final-breadcrumb .breadcrumb li a:hover {
-  color: #a51437;
+  color: #000;
 }
 .navbar-default .navbar-toggle {
   transition: none;
@@ -10075,7 +10080,7 @@ body {
   font-size: 15px;
   line-height: 40px;
   color: #fdbe57;
-  background: rgba(165, 20, 55, 1);
+  background: rgba(0, 0, 0, 1);
   visibility: visible !important;
   opacity: .65;
   margin-top: -20px;
@@ -10167,7 +10172,7 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(165, 20, 55, 1);
+  background: rgba(0, 0, 0, 1);
   overflow: hidden;
   opacity: 0;
   transition: all 300ms linear 0s;
@@ -10231,7 +10236,7 @@ video {
   }
 
   #main-navigation-wrapper .nav > li > a {
-    background-color: #a51437;
+    background-color: #000;
   }
 
   .header-abscont #main-navigation-wrapper.navbar-default.stricky-fixed .nav > li > a {
@@ -10352,7 +10357,7 @@ video {
 
 @media(min-width: 992px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 100px;
+    margin-left: 160px;
   }
 }
 
@@ -10364,7 +10369,7 @@ video {
 @media(min-width: 540px) {
   .widget.about-us-widget.slim {
     margin-top: -28px;
-    margin-left: 5px;
+    margin-left: -16px;
   }
 }
 
@@ -10377,4 +10382,50 @@ video {
     margin-top: -28px;
     margin-left: 0px;
   }
+}
+
+@media (min-width: 992px) {
+  .widget.about-us-widget.slim {
+    margin-top: -16px;
+    margin-left: -145px;
+    float: none;
+  }
+
+  .widget.about-us-widget.slim ul {
+    margin-top: -25px;
+  }
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media(min-width: 800px) {
+  .row:first-child {
+    margin-top: 80px;
+  }
+}
+
+@media(max-width: 540px) {
+  .row:first-child {
+    margin-top: 80px;
+  }
+}
+
+@media(max-width: 1000px) {
+  a.navbar-brand {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+}
+
+.google-maps > iframe {
+  min-height: 265px;
+}
+.google-maps {
+  min-height: 265px;
 }
