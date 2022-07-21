@@ -914,7 +914,7 @@ header {
   position: absolute;
   z-index: 100;
   margin-top: -3em;
-  width: 97.5%;
+  width: 90%;
 }
 
 .search-wrapper .container {
@@ -940,14 +940,14 @@ header {
 
 .search-sec .res-btn {
   background: #f1be48;
-  padding: 6px 25px;
+  padding: 5px 6px;
   margin: 0 0 0 1em;
   letter-spacing: 0.6px;
 }
 
 .search-sec .res-btn:hover {
   background: #fff;
-  color: #1a1a1c;
+  color: #f1be48;
 }
 
 .search-sec .form-control[readonly] {
@@ -1195,8 +1195,8 @@ header {
 }
 
 .common-pad {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .sec-header {
@@ -1213,11 +1213,13 @@ header {
 }
 
 .sec-header h3 {
+  color: #000;
+  font: 400 1.15em/1.8em "HelveticaNeue Postscript";
+}
+
+.sec-header h3.white {
   color: #fff;
   font: 400 1.15em/1.8em "HelveticaNeue Postscript";
-  margin: 0 0 1em;
-  padding: 0;
-  position: relative;
 }
 
 .sec-header h3:after {
@@ -2141,13 +2143,14 @@ header {
   18. footer style
 ============================== */
 footer {
-  background: #000;
+  background: #fff;
   position: relative;
+  border-top: 1px solid #fdbe57;
 }
 
 .footer-wrapper {
   position: relative;
-  background: #000;
+  background: #fff;
 }
 
 .footer-pad {
@@ -2166,7 +2169,7 @@ footer {
 }
 
 .widget.about-us-widget p {
-  color: #fff;
+  color: #000;
   margin-top: 2em;
   font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
   padding: 0;
@@ -2179,7 +2182,7 @@ footer {
 }
 
 .widget.about-us-widget a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .widget.about-us-widget ul {
@@ -2205,7 +2208,7 @@ footer {
 
 .widget.about-us-widget ul li a:hover {
   background: none;
-  color: #fff;
+  color: #000;
 }
 
 .widget-contact h4, .get-in-touch h4, .widget-links h4 {
@@ -2233,7 +2236,7 @@ footer {
 }
 
 .widget-contact-list ul li a {
-  color: #fff;
+  color: #000;
   text-transform: capitalize;
   font: 400 1.0715em/2.3em "HelveticaNeue Postscript";
 }
@@ -2262,10 +2265,13 @@ footer {
   padding-top: 13px;
   line-height: 18px;
 }
+.widget.get-in-touch ul li i:hover {
+  color: #000;
+}
 
 .widget.get-in-touch ul li .fleft {
   float: left;
-  color: #fff;
+  color: #000;
   width: -webkit-calc(100% - 34px);
   width: calc(100% - 34px);
   font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
@@ -2299,7 +2305,8 @@ footer {
 
 .footer-copy p {
   font: 400 1.0715em/1.5em "HelveticaNeue Postscript";
-  color: #fdbe57;
+  /* color: #fdbe57; */
+  color: #000;
   padding: 0;
   margin: 0;
 }
@@ -4879,7 +4886,7 @@ blockquote footer a {
 ============================== */
 .search-sec-homet {
   background: transparent;
-  margin-top: -8em;
+  margin-top: -12em;
 }
 
 .search-sec-homet .overlay .border {
@@ -8000,6 +8007,9 @@ body {
   }
 }
 
+.widget-contact-list ul li a.large {
+  font-size: 20px;
+}
 .widget-contact-list ul li a {
   font-size: 14px;
   line-height: 32px;
@@ -8967,13 +8977,13 @@ body {
 }
 
 #main-navigation-wrapper.navbar-default {
-  background: #000;
+  background: #fff;
   border: none;
   min-height: auto;
   background: #000;
-  background-image: -moz-linear-gradient(90deg, #000 0%, #000 100%);
-  background-image: -webkit-linear-gradient(90deg, #000 0%, #000 100%);
-  background-image: -ms-linear-gradient(90deg, #000 0%, #000 100%);
+  background-image: -moz-linear-gradient(90deg, #fff 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(90deg, #fff 0%, #fff 100%);
+  background-image: -ms-linear-gradient(90deg, #fff 0%, #fff 100%);
   border-radius: 0;
   margin: 0;
 }
@@ -8981,6 +8991,8 @@ body {
   border: none;
   padding: 0;
   transition: none;
+  position: absolute;
+  right: 20px;
 }
 #main-navigation-wrapper.navbar-default.transBg-main-menu-header {
   background: #000;
@@ -9026,6 +9038,9 @@ body {
   }
 }
 #main-navigation-wrapper.navbar-default.stricky-fixed {
+  max-height: 70px;
+}
+#main-navigation-wrapper.navbar-default {
   max-height: 70px;
 }
 #main-navigation-wrapper.navbar-default.stricky-fixed .navbar-brand {
@@ -9082,7 +9097,7 @@ body {
   font-size: 14px;
   font-family: "HelveticaNeue Postscript";
   font-weight: bold;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   /*padding-right: 20px;*/
 }
@@ -9450,7 +9465,7 @@ body {
   z-index: 10000;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background-color: #000;
+  background-color: #fff;
 }
 
 /*------------*/
@@ -9488,8 +9503,8 @@ body {
     font-size: 14px;
     font-family: "HelveticaNeue Postscript";
     font-weight: bold;
-    background-color: #000 !important;
-    color: #fff;
+    background-color: #fff !important;
+    color: #000;
     text-transform: uppercase;
     /*padding-right: 20px;*/
   } 
@@ -10236,7 +10251,7 @@ video {
   }
 
   #main-navigation-wrapper .nav > li > a {
-    background-color: #000;
+    background-color: #fff;
   }
 
   .header-abscont #main-navigation-wrapper.navbar-default.stricky-fixed .nav > li > a {
@@ -10402,13 +10417,13 @@ video {
 }
 
 @media(min-width: 800px) {
-  .row:first-child {
+  .row.slider {
     margin-top: 80px;
   }
 }
 
 @media(max-width: 540px) {
-  .row:first-child {
+  .row.slider {
     margin-top: 80px;
   }
 }
@@ -10419,7 +10434,7 @@ video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -10428,4 +10443,21 @@ video {
 }
 .google-maps {
   min-height: 265px;
+}
+
+.ui-selectmenu-button.ui-widget.ui-state-default.ui-corner-all.extra {
+  display: none;
+}
+
+.glyphicon-chevron-right:hover, .glyphicon-chevron-left:hover {
+  color: #f1be48;
+}
+
+.widget.get-in-touch.col-xs-12 {
+  top: 25px;
+}
+
+.widget_title.call-now {
+  margin-bottom: 0px;
+  text-transform: capitalize;
 }
